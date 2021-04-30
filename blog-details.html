@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة عربي | المدونة</title>
+<script defer src="/js/bundle.js"></script><link href="/main.css" rel="stylesheet"></head>
+<body>
+    <div class="container-fluid">
+        <!--hلقائمة العلوية-->
+        <section class="top-menu">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a href="index.html" class="navbar-brand p-0">
+                        <img src="/images/logo.png" alt="عربي">
+                    </a>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item  p-2">
+                          <a class="nav-link" href="/index.html">الرئيسية</a>
+                        </li>
+                        <li class="nav-item p-2">
+                          <a class="nav-link" href="/about.html">عن الشركة</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link" href="/projects.html">مشاريعنا</a>
+                          </li>
+                          <li class="nav-item p-2">
+                            <a class="nav-link" href="/blog.html">المدونة</a>
+                          </li>
+                          <li class="nav-item p-2">
+                            <a class="nav-link" href="/contact.html"> تواصل معنا</a>
+                          </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+        </section>
+        <!--نهاية القائمة العلوية-->
+
+        <section class="banner banner-blog">
+            <div class="row">
+                <div class="col-12">
+                    <div id="banner-img">
+                        <div class="overlay">
+                            <h1 class="title1">المدونة</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+       <section class="posts-details mt-5 mb-4">
+           <div class="container">
+               <div class="row justify-content-center">
+                   <div class="col-md-7">
+                    <div class="card">
+                        <img src="/images/blog2.png" class="card-img-top" alt="post img">
+                        <div class="card-body">
+                          <h3 class="card-title">التعبيرات (expressions) في جافا</h3>
+                          <span><i class="fas fa-clock fa-sm"></i>21 يناير 2021</span>
+                          <hr>
+                          <p class="card-text text-justify">
+                            يُلقِي هذا القسم نظرة على التعبيرات (expressions) المُستخدَمة لتمثيل قيمة أو حسابها. قد يكون التعبير (expression) بهيئة قيمة مُصنَّفة النوع (literal) أو مُتْغيِّر (variable) أو استدعاء دالة (function call) أو مجموعة من تلك الأشياء مُجمَّعة معًا بعوامل (operators) مثل + و >. يُمكِنك أن تُسنِد (assign) قيمة تعبير إلى مُتْغيِّر (variable) أو تُمرِّرها كمُعامل (parameter) أثناء استدعاء برنامج فرعي (subroutine call) أو تَدمِجها مع قيم آخرى ضِمْن تعبير آخر أكثر تعقيدًا. يمكنك أيضًا أن تتجاهلها ببعض الحالات إذا كان هذا ما تريد أن تفعله وهو أمر شائع أكثر مما قد تَظُنّ. تُعدّ التعبيرات في العموم جزءًا أساسيًا من البرمجة، ولقد كان تَعامُلنا معها حتى الآن غير رسمي نوعًا ما، ولكننا سنناقشها تفصيليًا خلال هذا القسم باستثناء بعض العوامل (operators) الأقل استخدامًا. تُعدّ كُلًا من القيم المُجرّدة مُصنَّفة النوع (literals) مثل 674 و 3.14 و true و X، والمُتْغيِّرات، واستدعاءات الدوال من أبسط اللبنات الأساسية بالتعبيرات. ينبغي أن تَتَذكَّر أن أي دالة (function) هي عبارة عن برنامج فرعي (subroutine) يُعيد قيمة، ولقد تَعرَّضنا بالفعل لعدة أمثلة منها برامج (routines) الإِدْخَال المُعرَّفة بالصنف TextIO وكذلك الدوال الرياضية بالصَنْف Math.
+                          </p>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">العوامل الحسابية </h5>
+                            <p class="card-text text-justify">
+                                يَحتوِي الصَنْف Math على مجموعة من الثوابت (constants) الرياضية التي يُمكِن اِستخدَامها ضِمْن أي تعبير رياضي مثل الثابت Math.PI المُمثِل لنسبة محيط أي دائرة إلى طول قُطرها π، وكذلك الثابت Math.E المُمثِل لقيمة أساس اللوغاريتم الطبيعي e. تلك الثوابت (constants) هي عبارة عن مُتْغيِّرات أعضاء (member variables) من النوع double مُعرَّفة بالصَنْف Math، ولأن القيم التي تُمثِلها تلك الثوابت الرياضية تَتَطلَّب عددًا لا نهائيًا من الأرقام لتَخْصِيصها بدقة، اِستخدَمنا أعدادًا تَقْرِيبية لقيم تلك الثوابت. بالإضافة إلى ذلك، يُعرِّف الصَنْف القياسي Integer ثوابتًا (constants) مُتْعلِّقة بالنوع int، فمثلًا، يُمثِل الثابت Integer.MAX_VALUE أكبر عدد يُمكِن للنوع int أن يَحْمله ويُساوِي 2147483647 بينما يُمثِل الثابت Integer.MIN_VALUE أصغر عدد يُمكِن حَمْله ويُساوِي ‎-2147483648. بالمثل، يُعرِّف الصَنْف Double ثوابتًا مُتْعلِّقة بالنوع double فمثلًا يُمثِل الثابت Double.MAX_VALUE أكبر قيمة يُمكِن للنوع double أن يَحملها بينما يُمثِل الثابت Double.MIN_VALUE أصغر قيمة موجبة يُمكِن حَمْلها كما يُعرِّف الصَنْف ثوابتًا آخرى تُمثِل كُلًا من القيمتين اللانهائيتين Double.POSITIVE_INFINITY و Double.NEGATIVE_INFINITY وكذلك القيمة غَيْر المُعرَّفة Double.NaN. فمثلًا، قيمة Math.sqrt(-1)‎ هي Double.NaN.
+                            </p>
+                            <hr>
+                            <div>
+                                <span class="float-left post-share mt-2">شارك المقال</span> 
+                                <a href="#" class="linkedin-social one-social"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                                <a href="#" class="twitter-social one-social"><i class="fab fa-twitter fa-lg"></i></a>
+                                <a href="#" class="facebook-social one-social"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+
+        <!--تدييل الصفحة-->
+        <footer>
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2 class="mt-5">شركة عربي</h2>
+              <hr class="line1">
+            </div>
+            <div id="footer-nav-links" class="col-12 text-center mt-2">
+              <a href="index.html">الصفحة الرئيسية</a>
+              <a href="about.html">من نحن</a>
+              <a href="project.html">المشاريع السابقة</a>
+              <a href="blog.html">المدونة</a>
+              <a href="contact.html">تواصل معنا</a>
+            </div>
+            <hr class="line2">
+            <div class="col-12 text-center">
+              <label class="custom-heading text-white mb-3">الاشتراك بالنشرة البريدية</label>
+              <form class="form form-inline justify-content-center">
+              <div class="input-group input-group-lg mb-3">
+                <input type="text" class="form-control" placeholder="البريد الالكتروني" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                <div class="input-group-prepend">
+                  <button class="btn btn-light" type="button" id="button-addon1">متابعة</button>
+                </div>
+              </div>
+              </form>
+            </div>
+            <hr class="line2">
+            <div class="col-12 text-center">
+              <a class="copyright-link copyright" href="https://academy.hsoub.com/courses/front-end-web-development/corporate-website/home-page/14-%D8%B0%D9%8A%D9%84-%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9-footer-r3036/">
+                دورة تطوير واجهات المستخدم
+              </a>
+              <h5 class="copyright mt-2">
+                جميع الحقوق محفوظة اكاديمية حسوب <span id="date"></span> &copy;
+              </h5>
+            </div>
+          </div>
+        </footer>
+        <!--نهاية تدييل الصفحة-->
+    </div>
+</body>
+</html>
